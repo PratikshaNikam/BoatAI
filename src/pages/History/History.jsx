@@ -1,8 +1,8 @@
-import { Typography, Box, Stack, Divider, Select, MenuItem } from '@mui/material'
+import { Typography, Box, Stack, Divider } from '@mui/material'
 import { useEffect, useState } from 'react'
-import ChatHistoryCard from '../../components/ChatHistoryCard/ChatHistoryCard'
-import ChatFilter from '../../components/ChatFilter/ChatFilter'
-import Navbar from '../../components/Navbar/Navbar'
+import ChatHistoryCard from '../../Components/ChatHistoryCard/ChatHistoryCard'
+import ChatFilter from '../../Components/ChatFilter/ChatFilter'
+import Navbar from '../../Components/Navbar/Navbar'
 
 export default function History() {
 

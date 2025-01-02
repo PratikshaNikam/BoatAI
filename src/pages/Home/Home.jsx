@@ -1,12 +1,12 @@
-import { Box, Stack, Typography } from '@mui/material';
-import InitialChat from '../../components/InitialChat/InitialChat';
-import ChatInput from '../../components/ChatInput/ChatInput';
-import ChattingCard from '../../components/ChattingCard/ChattingCard';
-import FeedbackModal from '../../components/FeedbackModal/FeedbackModal';
+import {  Stack,  } from '@mui/material';
+import InitialChat from '../../Components/InitialChat/InitialChat';
+import ChatInput from '../../Components/ChatInput/ChatInput';
+import ChattingCard from '../../Components/ChattingCard/ChattingCard';
+import FeedbackModal from '../../Components/FeedbackModal/FeedbackModal';
 import { useEffect, useRef, useState } from 'react';
 import data from '../../aiData/sampleData.json'
 import { useOutletContext } from "react-router-dom";
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../Components/Navbar/Navbar';
 import { ThemeContext } from '../../theme/ThemeContext';
 import { useContext } from 'react';
 
