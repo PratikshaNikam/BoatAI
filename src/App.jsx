@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom'
 import { ThemeContext } from './theme/ThemeContext';
 import { useState, useEffect } from 'react';
-import Sidebar from './components/Sidebar/Sidebar';
+import Sidebar from './Components/Sidebar/Sidebar';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import * as React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
